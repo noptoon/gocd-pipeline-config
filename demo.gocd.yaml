@@ -13,3 +13,6 @@ pipelines:
               tasks:
                 - exec:
                     command: ./gotham-todo/build.sh
+              tasks:
+                - exec:
+                    command: ./gotham-todo/apply-infrastructure.sh      
