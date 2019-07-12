@@ -13,4 +13,4 @@ pipelines:
               tasks:
                 - exec:
                     command: bash
-                    arguments: ./bash.sh
+                    arguments: ./build.sh
