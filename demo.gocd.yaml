@@ -19,3 +19,11 @@ pipelines:
               tasks:
                 - exec:
                     command: ./gotham-todo/apply-infrastructure.sh
+      - three-stage:
+          jobs:
+            list:
+              tasks:
+                - exec:
+                    command: ./gotham-todo/copy-static-files.sh
+        
+
