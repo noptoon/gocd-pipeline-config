@@ -4,7 +4,7 @@ pipelines:
     group: group-name
     materials:
       git-repo:
-        git: https://github.com/gotham-learning/vue-gotham-todo.git
+        git: https://github.com/noptoon/vue-gotham-todo.git
         branch: master
     stages:
       - first-stage:
@@ -12,6 +12,6 @@ pipelines:
             list:
               tasks:
                 - exec:
-                    command: ls
+                    command: ./build.sh
                     arguments:
                       - .
