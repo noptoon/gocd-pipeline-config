@@ -1,4 +1,4 @@
-format_version: 2
+format_version: 3
 pipelines:
   pipeline-name:
     group: group-name
@@ -13,5 +13,3 @@ pipelines:
               tasks:
                 - exec:
                     command: ./build.sh
-                    arguments:
-                      - .
