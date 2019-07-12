@@ -18,7 +18,4 @@ pipelines:
             list:
               tasks:
                 - exec:
-                    command: ./gotham-todo/apply-infrastructure.sh         
-
-
-=
+                    command: ./gotham-todo/apply-infrastructure.sh
